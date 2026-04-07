@@ -12,3 +12,13 @@ body {
 h1 {
     background-color: white;
 }
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__botao:checked~.lista-menu { /* Espécie de condicional. Se o container__botao estiver checked, então lista-menu recebe o estilo abaixo.*/
+    display: block;
+}
