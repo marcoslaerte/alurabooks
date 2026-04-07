@@ -3,6 +3,8 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {
@@ -17,6 +19,7 @@ h1 {
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
 }
 
 .container__botao:checked~.lista-menu { /* Espécie de condicional. Se o container__botao estiver checked, então lista-menu recebe o estilo abaixo.*/
